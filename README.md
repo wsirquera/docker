@@ -1,17 +1,19 @@
 # Docker
 
+This repository was created for make applications tests using images, Dockerfile, docker-compose, etc.
+
 ## Dockerfile
 
-### FROM => Inicializa o build de uma imagem a partir de uma imagem base.
-RUN => Executa um comando.
-WORKDIR => Define o seu diretório corrente.
-COPY => Copia arquivos ou diretórios e adiciona ao sistema de arquivos da imagem.
-ADD => Copia arquivos, diretórios ou arquivos remotos e adiciona ao sistema de arquivos da imagem.
-LABEL => Adiciona metadados a imagem.
-ENV => Define variaveis de amviente.
-VOLUME => Define volumes que devem ser definidos.
-ARG => Define um argumento para ser usado no processo de construção.
-EXPOSE => Define que o container precisa expor a porta em questão.
-USER => Define o usuário que vai ser utilizado.
-CMD => Define o comando e/ou os parâmetros padrão.
-ENTRYPOINT => Ajuda você a configurar um container que pode ser executado como um executavel.
+FROM => Starts building an image from a base image.
+RUN => Executes a command.
+WORKDIR => Sets your current directory.
+COPY => Copy files or directories and add them to the image's file system.
+ADD => Copy files, directories or remote files and add them to the image's file system.
+LABEL => Adds metadata to the image.
+ENV => Sets environment variables.
+VOLUME => Sets the volumes that should be defined.
+ARG => Sets an argument to be used in the build process.
+EXPOSE => Sets that the container should export the port in question.
+USER => Sets the user that will be used.
+CMD => Sets the command and/or default parameters.
+ENTRYPOINT => Helps you configure a container that can be run as an executable.
