@@ -1,8 +1,8 @@
 # Docker
 
-# Dockerfile
+## Dockerfile
 
-FROM => Inicializa o build de uma imagem a partir de uma imagem base.
+### FROM => Inicializa o build de uma imagem a partir de uma imagem base.
 RUN => Executa um comando.
 WORKDIR => Define o seu diretório corrente.
 COPY => Copia arquivos ou diretórios e adiciona ao sistema de arquivos da imagem.
