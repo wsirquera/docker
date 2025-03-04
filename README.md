@@ -4,16 +4,18 @@ This repository was created for make applications tests using images, Dockerfile
 
 ## Dockerfile
 
-FROM => Starts building an image from a base image.<br>
-RUN => Executes a command.<br>
-WORKDIR => Sets your current directory.<br>
-COPY => Copy files or directories and add them to the image's file system.<br>
-ADD => Copy files, directories or remote files and add them to the image's file system.<br>
-LABEL => Adds metadata to the image.<br>
-ENV => Sets environment variables.<br>
-VOLUME => Sets the volumes that should be defined.<br>
-ARG => Sets an argument to be used in the build process.<br>
-EXPOSE => Sets that the container should export the port in question.<br>
-USER => Sets the user that will be used.<br>
-CMD => Sets the command and/or default parameters.<br>
-ENTRYPOINT => Helps you configure a container that can be run as an executable.<br>
+| *Comando* | *Descrição* |
+|-----------|-------------|
+| `FROM` | Starts building an image from a base image. |
+| `RUN` | Executes a command. |
+| `WORKDIR` | Sets your current directory. |
+| `COPY` | Copy files or directories and add them to the image's file system. |
+| `ADD` | Copy files, directories or remote files and add them to the image's file system. |
+| `LABEL` | Adds metadata to the image. |
+| `ENV` | Sets environment variables. |
+| `VOLUME` | Sets the volumes that should be defined. |
+| `ARG` | Sets an argument to be used in the build process. |
+| `EXPOSE` | Sets that the container should export the port in question. |
+| `USER` | Sets the user that will be used. |
+| `CMD` | Sets the command and/or default parameters. |
+| `ENTRYPOINT` | Helps you configure a container that can be run as an executable. |
