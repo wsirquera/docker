@@ -4,7 +4,7 @@ This repository was created for make applications tests using images, Dockerfile
 
 ## Dockerfile
 
-| *Comando* | *Descrição* |
+| **Comando** | **Descrição** |
 |-----------|-------------|
 | `FROM` | Starts building an image from a base image. |
 | `RUN` | Executes a command. |
