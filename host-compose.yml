@@ -1,0 +1,8 @@
+services:
+  nginx:
+    image: nginx
+    network_mode: "host"
+  curl:
+    image: nginx
+    # extra_hosts:
+    #   aula_docke.com: "172.25.173.3"
